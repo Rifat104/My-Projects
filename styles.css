@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+/* navbar style */
+.navbar{
+    display: flex;
+    width: 100%;
+    background-color: rgb(32, 29, 29);
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    justify-items: right;
+    text-decoration: solid;
+    color: white;
+}
+.navbar .menu li{
+    font-size: 24px;
+    list-style: none;
+    color: white;
+    margin-block: auto;
+    margin: 10px 0px 0px 29px;
+}
+.navbar .menu li a{
+    color: white;
+    text-decoration: none;
+}
+/* navbar style */
+/* home style */
+#home{
+   background-color: black
+}
+#home h1{
+    color: white;
+}
+#home h2{
+    color: white;
+}
+#home h3{
+    color: white;
+}

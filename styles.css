@@ -22,6 +22,9 @@
     text-decoration: solid;
     color: white;
 }
+ul{
+    display: flex;
+}
 .navbar .menu li{
     font-size: 24px;
     list-style: none;
@@ -36,19 +39,83 @@
 /* navbar style */
 /* home style */
 #home{
- background-image: url(banner.jpg);
+ background-image: url(banner.png);
   margin: 0;
   padding: 142px;
-  min-height: 500px;
+  min-height: 300px;
   margin-top: -10px;
    
 }
 #home h1{
     color: white;
+    font-size: 40px;
 }
 #home h2{
     color: white;
+    
 }
 #home h3{
     color: white;
+    padding: 12px 0px 12px 0px;
+    font-size: 20px;
 }
+.n{
+    color: red;
+}
+.mintro{
+    display: flex;
+    justify-content: space-between;
+}
+.intro{
+    margin: 35px 0px 0px -5px;
+}
+/* social Icon */
+.social{
+    display: flex;
+}
+.social .fb{
+    color: blue;
+    margin-left: 8px;
+}
+.social .yt{
+    color: red;
+    margin-left: 8px;
+}
+.insta-icon {
+    margin-top: 6px;
+    margin-left: 8px;
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border-radius: 20%;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)
+  }
+  .insta-icon:after,
+  .insta-icon:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #fff;
+    transform: translate(-50%, -50%);
+    content: ''
+  }
+  .insta-icon:before {
+    border-radius: 20%
+  }
+  .insta-icon:after {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%
+  }
+  /* social Icon */
+  .fiverr{
+      font-size: 20px;
+      color: white;
+      background-color: #5cb85c;
+      border: solid;
+      border-color: #5cb85c;
+      border-radius: 2px;
+  }
+  /* Home End */

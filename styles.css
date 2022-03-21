@@ -118,4 +118,42 @@ ul{
       border-color: #5cb85c;
       border-radius: 2px;
   }
+  #home button a{
+      color: white;
+      list-style: none;
+  }
   /* Home End */
+
+
+  /* about */
+#about{
+    background-color: #534A4A;
+    display: flex;
+    border: white;
+    border-style: solid;
+}
+#about img{
+    justify-content: right;
+    margin-left: 46px;
+}
+.left{
+    width: 30%;
+}
+.right{
+    width: 65% ; 
+}
+.rip{
+    width: 5%;
+}
+#about p{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 29px;
+}
+#about .right .fiverr a{
+    color: white;
+      list-style: none;
+}
+
+/* home end */
+

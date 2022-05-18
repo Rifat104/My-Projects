@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+#footer{
+    background-color: #13191f;
+    display: flex;
+}
+#footer .logo{
+    display: flex;
+    text-align: center;
+    width: 25%;
+}
+#footer .logo .h1{
+    text-align: center;
+    justify-content: center;
+}
+#footer .mail{
+    width: 60%;
+}
+#footer .order{
+    color: white;
+}
+#footer .logo{
+    color: white;
+}
